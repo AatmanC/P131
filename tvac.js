@@ -5,12 +5,12 @@ function preload(){
 }
 
 function setup(){
-    canvas = createCanvas(640, 420);
+    canvas = createCanvas(640, 320);
     canvas.center();
 }
 
 function draw(){
-    image(img, 0, 0, 640, 420);
+    image(img, 0, 0, 640, 320);
     fill("#FF0000");
     text("TV", 60, 165);
     noFill();
@@ -18,7 +18,7 @@ function draw(){
     rect(50, 150, 280, 200);
 
     fill("#0000FF");
-    text("Dressing Table", 360, 40);
+    text("Air Conditioner", 360, 40);
     noFill();
     stroke("#0000FF");
     rect(350, 20, 280, 150);
